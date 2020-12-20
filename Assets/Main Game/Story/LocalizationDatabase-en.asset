@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff34614f4518d409d9e35af62a22851c, type: 3}
+  m_Name: LocalizationDatabase-en
+  m_EditorClassIdentifier: 
+  _LocaleCode: en
+  assetSourceFolder: {fileID: 0}
+  _stringTable:
+    keys:
+    - line:0ccbab5
+    - line:0e3d2db
+    - line:022e087
+    - line:06f9141
+    - line:043d834
+    - line:06d7bb9
+    - line:0b81dae
+    - line:03a4fa4
+    - line:05ee73c
+    - line:0dafd84
+    - line:02f3934
+    - line:04f60d4
+    - line:0dedcd8
+    - line:043cdcc
+    - line:018a4c7
+    - line:08fb267
+    - line:0de6fa5
+    - line:085dde3
+    - line:0c14768
+    - line:0438cbe
+    - line:084f0f4
+    - line:0bfbf52
+    - line:0d1b5f6
+    - line:04c952e
+    - line:0010284
+    - line:0d96685
+    - line:02cd010
+    - line:08f0646
+    - line:0ac016f
+    - line:05df97f
+    - line:02655f6
+    - line:0b3321a
+    - line:01d4153
+    - line:010b31c
+    - line:0fe9865
+    - line:0949811
+    - line:06bf036
+    - line:020e5f9
+    - line:08e558f
+    - line:0fcefd0
+    - line:0b3e097
+    - line:0842939
+    - line:07fbeef
+    - line:0653837
+    - line:0b2a320
+    - line:0cf0a57
+    - line:0abbc41
+    - line:0d18825
+    - line:06ed256
+    - line:0b016c7
+    - line:0592d5e
+    - line:0aad92f
+    - line:05a970c
+    - line:0525403
+    - line:01310c4
+    - line:0c05154
+    - line:0fd7fdf
+    - line:0b9ead6
+    - line:08e72a6
+    - line:0893db0
+    - line:040a403
+    - line:0b4da55
+    - line:0dd2e4c
+    - line:074c33a
+    - line:00ec03e
+    - line:06497bc
+    - line:075ea84
+    values:
+    - 'SYS: Program Started <br>Starting Core Modules... <br>Loading Data...'
+    - 'SYS: Threads loaded successfully. System is now ready to begin Respooling,
+      please select a file to continue.'
+    - Hunter
+    - 'SYS: Hunter selected, beginning thread.'
+    - Fool
+    - 'SYS: Fool selected, beginning thread.'
+    - Scholar
+    - 'SYS: Scholar selected, beginning thread.'
+    - Keeper
+    - 'SYS: Keeper selected, beginning thread.'
+    - It isn't safe.
+    - I need to run.
+    - My legs are moving faster than ever before in my life, I'm being propelled
+      by fear.
+    - The branches whip against my skin, but I don't feel pain. <br>I don't have
+      time to feel pain.
+    - I need to run.
+    - I hear someone call out my name, I whip my head around to see.
+    - Who are they?
+    - They're struggling to keep up, they won't make it.
+    - They call out to me again, voice getting further away.
+    - Why can't I remember who this person is?
+    - I can't remember anything about them.
+    - Only that... <br>They are important to me.
+    - I've finally did it.
+    - It took a lot of time, a lot more energy, and a lot more money than I expected.
+      But I finally made it.
+    - And its right here in my hands.
+    - ...What did I make?
+    - I can't see it clearly, even though I'm holding it...
+    - A voice says its dangerous. <br>I laugh.
+    - I know what I'm doing. <br>I can handle it.
+    - ...What am I going to do?
+    - The voice just scolds me for being reckless.
+    - But they don't leave my side.
+    - Who is talking to me? <br>Why can't I remember their face?
+    - Why can't I remember?
+    - Shelves of books tower all around me, surrounding me with knowledge.
+    - This is a place I belong, where I am at home.
+    - Every day I make sure all of this information is in the right place, that everything
+      is in order.
+    - History in Section A4.<br>Atlases in Section B12<br>Dictionaries in D3.
+    - I spend my morning checking in all the returned books, my afternoon returning
+      them to their sections.
+    - Non-fiction in Section PP55.<br>Comics in Section T22<br>Biographies in Section
+      Z8
+    - I spend my evenings reading various novels I've found, and my nights...
+    - Patents in Section YJ00<br>??? in Section ???<br>Newspapers in Section 227
+    - ... where do I spend my nights?
+    - Its not here.
+    - But this is where I belong. Where I'll always be.
+    - But why...
+    - ... why can't I remember that place?
+    - Sunlight fills the room, a warmth washes over me.
+    - Start my day right as the sun rises, before the day starts for everyone else.
+    - Every day starts the same way.
+    - Entering the shop, roasting some beans, and grinding to brew coffee.
+    - The warm scent of smoke filling the room, water boiling away, everything is
+      the same.
+    - The phone rings.<br>I pick up.
+    - I can't hear them.
+    - Why can't I hear them? I know they're talking to me.
+    - Something is wrong, I can't remember why but something is wrong.
+    - Why can't I remember?
+    - 'SYS: Error - Process failed. Missing data from current thread, ending program.'
+    - 'SYS: Error - Missing data from all threads.<br>Data can not be threaded in
+      its current state.'
+    - Think what to do next
+    - Try Again anyway
+    - 'KXI: Hey thanks for playing this game so far! If you''re reading this then
+      the story is unfinished right now.'
+    - 'KXI: It will be completed in the near future, so stay tuned.'
+    - 'KXI: Until then, this program will restart forever.'
+    - 'SYS: Restarting System...'
+    - 'SYS: Program has quit before Respooling has been completed.<br>Data has remained
+      unspooled.'
+    - 'SYS: Restarting System...'
+  _assetTable:
+    keys: []
+    values: []

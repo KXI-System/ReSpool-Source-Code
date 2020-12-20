@@ -1,0 +1,35 @@
+fileFormatVersion: 2
+guid: 80af39e7a1bbe9840aca1ff2bbc636f0
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-CA
+  stringIDs:
+  - line:tutorial-tom-1
+  - line:tutorial-tom-2
+  - line:tutorial-anne-1
+  - line:tutorial-tom-3
+  - line:tutorial-tom-4
+  - line:tutorial-anne-2
+  - line:tutorial-tom-5
+  - line:tutorial-anne-3
+  - line:tutorial-tom-6
+  - line:tutorial-tom-7
+  - line:tutorial-anne-4
+  - line:tutorial-tom-8
+  - line:tutorial-anne-5
+  - line:tutorial-tom-9
+  - line:tutorial-tom-10
+  - line:tutorial-anne-6
+  - line:tutorial-tom-11
+  AnyImplicitStringIDs: 0
+  isSuccesfullyParsed: 1
+  parseErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 80af39e7a1bbe9840aca1ff2bbc636f0, type: 3}
+  localizations: []
+  localizationDatabase: {instanceID: 0}

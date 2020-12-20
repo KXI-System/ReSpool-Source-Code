@@ -1,0 +1,134 @@
+﻿title: Start
+tags: 
+position: 36.96440315246582,-295.04530334472656
+---
+SYS: Program Started <br>Starting Core Modules... <br>Loading Data... #line:0ccbab5
+SYS: Threads loaded successfully. System is now ready to begin Respooling, please select a file to continue. #line:0e3d2db
+
+-> Hunter #line:022e087
+    SYS: Hunter selected, beginning thread. #line:06f9141
+    [[Hunter.Start]]
+-> Fool #line:043d834
+    SYS: Fool selected, beginning thread. #line:06d7bb9
+    [[Fool.Start]]
+-> Scholar #line:0b81dae
+    SYS: Scholar selected, beginning thread. #line:03a4fa4
+    [[Scholar.Start]]
+-> Keeper #line:05ee73c
+    SYS: Keeper selected, beginning thread. #line:0dafd84
+    [[Keeper.Start]]
+===
+
+title: Hunter.Start
+tags: 
+position: -388.27838134765625,16.598716735839844
+---
+<<set $starthunter to true>>
+It isn't safe. #line:02f3934
+I need to run. #line:04f60d4
+My legs are moving faster than ever before in my life, I'm being propelled by fear. #line:0dedcd8
+The branches whip against my skin, but I don't feel pain. <br>I don't have time to feel pain. #line:043cdcc
+I need to run. #line:018a4c7
+I hear someone call out my name, I whip my head around to see. #line:08fb267
+<<PulseSim>>
+Who are they? #line:0de6fa5
+They're struggling to keep up, they won't make it. #line:085dde3
+They call out to me again, voice getting further away. #line:0c14768
+<<SpeedSim>>
+Why can't I remember who this person is? #line:0438cbe
+I can't remember anything about them. #line:084f0f4
+Only that... <br>They are important to me. #line:0bfbf52
+<<SlowSim>>
+[[End]]
+===
+
+title: Fool.Start
+tags: 
+position: -85.93853759765625,24.375410318374634
+---
+<<set $startfool to true>>
+I've finally did it. #line:0d1b5f6
+It took a lot of time, a lot more energy, and a lot more money than I expected. But I finally made it. #line:04c952e
+And its right here in my hands. #line:0010284
+<<PulseSim>>
+...What did I make? #line:0d96685
+I can't see it clearly, even though I'm holding it... #line:02cd010
+A voice says its dangerous. <br>I laugh. #line:08f0646
+I know what I'm doing. <br>I can handle it. #line:0ac016f
+<<PulseSim>>
+...What am I going to do? #line:05df97f
+The voice just scolds me for being reckless. #line:02655f6
+<<SpeedSim>>
+But they don't leave my side. #line:0b3321a
+Who is talking to me? <br>Why can't I remember their face? #line:01d4153
+<<SlowSim>>
+Why can't I remember? #line:010b31c
+[[End]]
+===
+
+title: Scholar.Start
+tags: 
+position: 200.33009338378906,29.22330093383789
+---
+<<set $startscholar to true>>
+Shelves of books tower all around me, surrounding me with knowledge. #line:0fe9865
+This is a place I belong, where I am at home. #line:0949811
+Every day I make sure all of this information is in the right place, that everything is in order. #line:06bf036
+History in Section A4.<br>Atlases in Section B12<br>Dictionaries in D3. #line:020e5f9
+I spend my morning checking in all the returned books, my afternoon returning them to their sections. #line:08e558f
+Non-fiction in Section PP55.<br>Comics in Section T22<br>Biographies in Section Z8 #line:0fcefd0
+I spend my evenings reading various novels I've found, and my nights... #line:0b3e097
+<<PulseSim>>
+Patents in Section YJ00<br>??? in Section ???<br>Newspapers in Section 227 #line:0842939
+... where do I spend my nights? #line:07fbeef
+Its not here. #line:0653837
+<<SpeedSim>>
+But this is where I belong. Where I'll always be. #line:0b2a320
+But why... #line:0cf0a57
+... why can't I remember that place? #line:0abbc41
+<<SlowSim>>
+[[End]]
+===
+
+title: Keeper.Start
+tags: 
+position: 482.9288024902344,37.15210723876953
+---
+<<set $startkeeper to true>>
+Sunlight fills the room, a warmth washes over me. #line:0d18825
+Start my day right as the sun rises, before the day starts for everyone else. #line:06ed256
+Every day starts the same way. #line:0b016c7
+Entering the shop, roasting some beans, and grinding to brew coffee. #line:0592d5e
+The warm scent of smoke filling the room, water boiling away, everything is the same. #line:0aad92f
+The phone rings.<br>I pick up. #line:05a970c
+<<SpeedSim>>
+I can't hear them. #line:0525403
+Why can't I hear them? I know they're talking to me. #line:01310c4
+Something is wrong, I can't remember why but something is wrong. #line:0c05154
+Why can't I remember? #line:0fd7fdf
+<<SlowSim>>
+[[End]]
+===
+
+title: End
+tags: 
+position: 23.97413444519043,347.2783508300781
+---
+SYS: Error - Process failed. Missing data from current thread, ending program. #line:0b9ead6
+<<if $starthunter and $startfool and $startscholar and $startkeeper>>
+SYS: Error - Missing data from all threads.<br>Data can not be threaded in its current state. #line:08e72a6
+-> Think what to do next #line:0893db0
+-> Try Again anyway #line:040a403
+KXI: Hey thanks for playing this game so far! If you're reading this then the story is unfinished right now. #line:0b4da55
+KXI: It will be completed in the near future, so stay tuned. #line:0dd2e4c
+KXI: Until then, this program will restart forever. #line:074c33a
+<<set $starthunter to false>>
+<<set $startfool to false>>
+<<set $startscholar to false>>
+<<set $startkeeper to false>>
+SYS: Restarting System... #line:00ec03e
+<<else>>
+SYS: Program has quit before Respooling has been completed.<br>Data has remained unspooled. #line:06497bc
+SYS: Restarting System... #line:075ea84
+<<endif>>
+===

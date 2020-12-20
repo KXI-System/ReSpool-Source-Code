@@ -1,0 +1,8 @@
+﻿title: Program
+tags:
+---
+<<declare $starthunter = false>>
+<<declare $startfool = false>>
+<<declare $startscholar = false>>
+<<declare $startkeeper = false>>
+===
